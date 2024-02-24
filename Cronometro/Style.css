@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(Images/fondo-madera_24972-623.avif);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal-container{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.buttoms-container{
+    padding: 20px;
+}
+
+#cronometro{
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Noto Sans Thai',sans-serif;
+}
+
+.buttom,
+.start-buttom{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#button-start-pause.start,
+#button-start-pause.start i {
+background-color: greenyellow;
+}
+
+
+#button-start-pause.pause,
+#button-start-pause.pause i {
+background-color: #ffdc00;
+}
+
+#restart-button,
+#restart-button i{
+    background-color: red;
+}
